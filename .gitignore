@@ -1,0 +1,13 @@
+# 忽略环境变量和配置文件（防止泄露 API Key）
+.env
+config.json
+models.json
+providers.json
+
+# 忽略依赖和日志
+node_modules/
+*.log
+
+# 如果有编译缓存也可以忽略
+dist/
+build/
